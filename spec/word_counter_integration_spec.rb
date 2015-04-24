@@ -1,5 +1,5 @@
-require ('capybara/rspec')
-require ('./app')
+require 'capybara/rspec'
+require './app'
 Capybara.app = Sinatra::Application
 
 describe('The word counter path', {:type => :feature}) do
