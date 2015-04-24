@@ -8,7 +8,6 @@ class String
    sentence_modified = sentence_modified.gsub(/'?'/,"")
    sentence_modified = sentence_modified.gsub(/':'/,"")
    sentence_modified = sentence_modified.gsub(/';'/,"")
-   sentence_modified = sentence_modified.gsub(/'"'/,"")
 
    sentence_array = sentence_modified.split(' ')
 
