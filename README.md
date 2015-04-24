@@ -27,3 +27,5 @@ Adam McFadden
 
 ##License
 GPL v2
+
+Copyright (C) Adam McFadden 2015.
