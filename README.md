@@ -22,4 +22,8 @@ Requirements:
 
 Bootstrap css is used in the app.
 
-##Adam McFadden
+##Author
+Adam McFadden
+
+##License
+GPL v2
