@@ -1,9 +1,18 @@
 class String
   define_method(:word_counter) do |arg|
 
-    if self == arg
-      return "1"
-    end
+   sentence_modified = arg.downcase()
+   
+   sentence_modified = sentence_modified.gsub(/','/,"")
+   sentence_modified = sentence_modified.gsub(/'.'/,"")
+   sentence_modified = sentence_modified.gsub(/'?'/,"")
+   sentence_modified = sentence_modified.gsub(/':'/,"")
+   sentence_modified = sentence_modified.gsub(/';'/,"")
+   sentence_modified = sentence_modified.gsub(/'"'/,"")
+
+   sentence_array = sentence_modified.split(' ')
+
+   return sentence_array.count(self).to_s()
 
   end
 end
