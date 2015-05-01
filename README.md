@@ -11,7 +11,7 @@ The word_counter method will take a **search word** input and a **sentence** inp
 >Input Sentence =  The blue dog goes to the Blue house.
 >Output = 2
 
-The app can be visited here *https://fast-sierra-7122.herokuapp.com/*
+The app can be visited here 
 
 Requirements:
 
